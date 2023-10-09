@@ -11,7 +11,8 @@ struct Node {
 	}
 };
 
-struct LinkedList {
+class LinkedList {
+	public: 
 	Node* head;
 	LinkedList() { head = NULL; }
 
